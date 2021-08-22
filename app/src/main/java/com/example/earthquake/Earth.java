@@ -1,17 +1,17 @@
 package com.example.earthquake;
 
 public class Earth {
-    private Double mMagnitude;
+    private String mMagnitude;
     private String mCity;
     private String mDate;
 
-    public Earth(Double Magnitude, String City, String Date){
+    public Earth(String Magnitude, String City, String Date){
         mMagnitude = Magnitude;
         mCity = City;
         mDate = Date;
     }
 
-    public Double getmMagnitude() {
+    public String getmMagnitude() {
         return mMagnitude;
     }
 
